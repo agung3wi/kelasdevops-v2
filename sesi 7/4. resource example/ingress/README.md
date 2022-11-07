@@ -6,6 +6,11 @@ helm repo update
 helm install ingress-controller ingress-nginx/ingress-nginx
 ```
 
+Khusus AWS EKS terkini menggunakan 
+```
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-0.32.0/deploy/static/provider/aws/deploy.yaml
+```
+
 
 ### Install Cert Manager
 ```
