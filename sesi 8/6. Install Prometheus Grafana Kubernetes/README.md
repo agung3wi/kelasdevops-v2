@@ -18,5 +18,8 @@ helm repo add prometheus-community https://prometheus-community.github.io/helm-c
 
 Default Login grafana dashboard
 
+```
 username: admin
 password: prom-operator
+```
+
