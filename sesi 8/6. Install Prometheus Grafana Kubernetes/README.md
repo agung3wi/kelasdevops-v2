@@ -13,7 +13,7 @@ helm repo update
 
 Install Prometheus Grafana menggunakan helm
 ```
-helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+  helm install prometheus prometheus-community/kube-prometheus-stack --namespace monitoring --create-namespace
 ```
 
 Default Login grafana dashboard
