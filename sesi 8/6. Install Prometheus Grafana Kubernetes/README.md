@@ -15,3 +15,8 @@ Install Prometheus Grafana menggunakan helm
 ```
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 ```
+
+Default Login grafana dashboard
+
+username: admin
+password: prom-operator
